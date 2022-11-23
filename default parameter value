@@ -1,0 +1,61 @@
+def my_function(**kid):
+    print("His last name is " + kid["lname"])
+
+
+my_function(fname="Tobias", lname="Refsnes")
+
+
+def my_function(**kk):
+    print("His last name is " + kk["lname"])
+
+
+my_function(fname="steve", lname="Rogers")
+print("he is dangerous")
+x = "hail hydra , red skull"
+y = "people cant wait for any body aother than anybody"
+print(x+y)
+# default para meter
+
+
+def my_function(country="Norway"):
+    print("I am from " + country)
+
+
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
+# 674572
+
+
+def my_function(superheros="captian america"):
+    print(" he is our savior " + superheros)
+
+
+my_function("haya haya")
+my_function("batman")
+my_function("thor")
+my_function("superman")
+my_function("blackman")
+# passsing a list as an arguments
+
+
+def my_function(food):
+    for x in food:
+        print(x)
+
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+# 2354
+
+
+def my_function(students):
+    for x in students:
+        print(x)
+
+
+students = ["riay", "roy", "ribin george"]
+
+my_function(students)
